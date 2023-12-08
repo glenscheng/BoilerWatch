@@ -44,8 +44,10 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
   1. Just do `python3 <py_name>.py` and status will be logged to terminal. <br>
   <!-- end of the list -->
   Purdue Servers <br>
-  1. `nohup python3 <py_name>.py > <log_file_name> 2>&1 &` - this will run in the background and constantly log to `log_file_name`. <br>
-  2. cat `log_file_name` to show status log. <br>
+  1. SSH into a Purdue server. For example, I use `eceprog`, CS people should have their own too. <br>
+  2. `nohup python3 <py_name>.py > <log_file_name> 2>&1 &` - this will run in the background and constantly log to `log_file_name`. <br>
+  3. cat `log_file_name` to show status log. <br>
+  4. You are free to leave the terminal session.
   <!-- end of the list -->
   Examples <br>
   1. `python3 coursicle_email.py` <br>
@@ -58,3 +60,6 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
   1. `Ctrl-c` <br>
   <!-- end of the list -->
   Purdue Servers <br>
+  1. SSH back in. <br>
+  2. If you are still in the same terminnal session, do `ps`, copy the `PID` (process ID) of the process that says `python3`, then `kill -9 <PID>` to kill the process. <br>
+  3. If you are not in the same terminal session, do `ps aux | grep <py_name>.py`, copy the `PID` (process ID) of the process that says `python3`, then `kill -9 <PID>` to kill the process. <br>
