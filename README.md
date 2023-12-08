@@ -2,6 +2,10 @@
 A faster, more robust, and Python version of https://www.coursicle.com/ for Purdue University courses. Coursicle monitors course seat availabilities and notifies you when there are open seats, but their free version only allows you to track 1 course and polls every 15 minutes.
 
 # Features
+- sends you email notifications
+- sends you push notifications using Pushover
+  - Pushover has a 30 day free trial, then $5 one-time purchase
+  - Free 10,000 messages per month before need to upgrade
 - can monitor as many classes are you want
 - can poll as fast or slow as you want
 - can configure to run for as long as you want
@@ -29,9 +33,12 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
   <!-- end of the list -->
   Email Notifications <br>
   1. You can use the email I created glencoursicle@gmail.com to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. <br>
-  2. Change destination email to yourself in `send_message()`. <br>
+  2. Replace `'to'` email with yourself in `send_message()`. <br>
   
   Push Notifications <br>
+  1. Create a Pushover account (https://pushover.net/), and copy your User Key. Go here (https://pushover.net/api), click `Register your application`, fill stuff in, and copy your API Token/Key. <br>
+  2. Download the Pushover app, add your phone (or other device), and connect to your account. <br>
+  3. Replace `"token"` with your API Token/Key and `"user"` with your User Key. <br>
 ## Run <br>
   &nbsp; Locally <br>
   &nbsp; Purdue Servers <br>
