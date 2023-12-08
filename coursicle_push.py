@@ -51,7 +51,7 @@ def print_error(class_names, index):
   print(Style.RESET_ALL, end="", flush=True)
 
 def print_success_log():
-  print(Fore.BLACK + Back.WHITE + Style.BRIGHT + "* * * * * * * * *\n*               *\n*               *\n* SENT AN EMAIL *\n*               *\n*               *\n* * * * * * * * *", flush=True)
+  print(Fore.BLACK + Back.WHITE + Style.BRIGHT + "* * * * * * * *\n*             *\n*             *\n* SENT A PUSH *\n*             *\n*             *\n* * * * * * * *", flush=True)
   print(Style.RESET_ALL, end="", flush=True)
 
 def send_message(message):
@@ -71,6 +71,8 @@ def main():
 
   start = 1
   end = 10000
+  available_seats = ['0' for i in range(len(crns))]
+  available_seats_old = ['0' for i in range(len(crns))]
   while start <= end:
     message = ''
     random_interval = random.randrange(30,60) # random intervals btwn grouped scrapes
@@ -89,12 +91,14 @@ def main():
       
       if target_table:
         seats_row = target_table.find('th', {'class': 'ddlabel'}, string='Seats').parent
-        available_seats = seats_row.find_all('td')[2].text.strip()
-        if available_seats != '0': # only send message if there are open seats
-          message += f"Available Seats in {class_names[index]}: {available_seats}\n"
-        print_body(class_names, index, available_seats, current_time);
+        available_seats[index] = seats_row.find_all('td')[2].text.strip()
+        if available_seats[index] != available_seats_old[index]: # only send message if available seats changes (condense number of sends for Pushover)
+          message += f"Available Seats in {class_names[index]}: {available_seats[index]}\n"
+        print_body(class_names, index, available_seats[index], current_time);
       else:
         print_error(class_names, index)
+
+      available_seats_old[index] = available_seats[index]
         
     if message != '':
       send_message(message)
