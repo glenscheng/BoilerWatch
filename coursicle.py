@@ -55,7 +55,6 @@ def print_success_log():
   print(Style.RESET_ALL, end="", flush=True)
   
 
-
 def main():
   crns = ["68649", "14054", "17166", "24654"]
   class_names = ["EEE 355", "CE  355", "ECE 302", "SOC 324"]
