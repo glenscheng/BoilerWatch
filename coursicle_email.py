@@ -68,6 +68,8 @@ def send_message(message):
   
 
 def main():
+  print("Running coursicle_email.py ...", flush=True)
+
   crns = ["68649", "14054", "17166", "24654"]
   class_names = ["EEE 355", "CE  355", "ECE 302", "SOC 324"]
 
