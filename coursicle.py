@@ -7,6 +7,7 @@ from fake_useragent import UserAgent # have to install: `pip install fake_userag
 import smtplib
 from email.message import EmailMessage
 import random
+from colorama import Fore, Back, Style
 
 
 def get_html(url, max_retries=3, timeout=10):
@@ -27,17 +28,39 @@ def get_html(url, max_retries=3, timeout=10):
   print("Failed to retrieve the webpage after multiple attempts.", flush=True)
   return None
 
+def print_title(random_interval, start, end):
+  print(Fore.YELLOW + f"\nSlept {random_interval} s, Iteration: {start}/{end}", flush =True)
+  print(Style.RESET_ALL, end="", flush=True)
+
+def print_body(class_names, index, available_seats, current_time):
+  print(Style.DIM + f"Available Seats in {class_names[index]}: ", end="", flush=True)
+  print(Style.RESET_ALL, end="", flush=True)
+  print(Fore.RED + Style.BRIGHT + f"{available_seats}", end="", flush=True)
+  print(Style.RESET_ALL, end="", flush=True)
+  print(Style.DIM + f"     -     (Last checked at {current_time})", flush=True)
+  print(Style.RESET_ALL, end="", flush=True)
+
+def print_error(class_names, index):
+  print(Style.DIM + f"Table for {class_names[index]} not found on the webpage.", flush=True)
+  print(Style.RESET_ALL, end="", flush=True)
+
+def print_success_log():
+  print(Fore.BLACK + Back.WHITE + Style.BRIGHT + "* * * * * * * * *\n*               *\n*               *\n* SENT AN EMAIL *\n*               *\n*               *\n* * * * * * * * *", flush=True)
+  print(Style.RESET_ALL, end="", flush=True)
+  
+
+
 def main():
   crns = ["68649", "14054", "17166", "24654"]
   class_names = ["EEE 355", "CE  355", "ECE 302", "SOC 324"]
-  message = ''
 
   start = 1
   end = 10000
   while start <= end:
+    message = ''
     random_interval = random.randrange(30,60) # random intervals btwn grouped scrapes
     sleep(random_interval)
-    print(f"\nSlept {random_interval} s, Iteration: {start}/{end}", flush=True)
+    print_title(random_interval, start, end)
     start += 1
     
     for index, crn in enumerate(crns):
@@ -54,9 +77,9 @@ def main():
         available_seats = seats_row.find_all('td')[2].text.strip()
         if available_seats != '0': # only send message if there are open seats
           message += f"Available Seats in {class_names[index]}: {available_seats}\n"
-        print(f"Available Seats in {class_names[index]}: {available_seats}     -     (Last checked at {current_time})", flush=True)
+        print_body(class_names, index, available_seats, current_time);
       else:
-        print(f"Table for {class_names[index]} not found on the webpage.", flush=True)
+        print_error(class_names, index)
         
     if message != '':
       email = EmailMessage()
@@ -69,7 +92,7 @@ def main():
         smtp.starttls()
         smtp.login('glencoursicle@gmail.com', 'iotrqmvhkhyeqswu') # this is sender email and sender App Password (https://support.google.com/mail/answer/185833?hl=en)
         smtp.send_message(email)
-      print("* * * * * * * * *\n*               *\n*               *\n* SENT AN EMAIL *\n*               *\n*               *\n* * * * * * * * *", flush=True)
+      print_success_log()
 
 
 if __name__ == "__main__":
