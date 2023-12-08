@@ -32,7 +32,7 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
   4. Change `end` in `main()` depending on how long you want to run the program. <br>
   <!-- end of the list -->
   Email Notifications <br>
-  1. You can use the email I created glencoursicle@gmail.com to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. <br>
+  1. You can use the email I created (glencoursicle@gmail.com) to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. <br>
   2. Replace `'to'` email with yourself in `send_message()`. <br>
   
   Push Notifications <br>
@@ -40,6 +40,21 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
   2. Download the Pushover app, add your phone (or other device), and connect to your account. <br>
   3. Replace `"token"` with your API Token/Key and `"user"` with your User Key. <br>
 ## Run <br>
-  &nbsp; Locally <br>
-  &nbsp; Purdue Servers <br>
+  Locally <br>
+  1. Just do `python3 <py_name>.py` and status will be logged to terminal. <br>
+  <!-- end of the list -->
+  Purdue Servers <br>
+  1. `nohup python3 <py_name>.py > <log_file_name> 2>&1 &` - this will run in the background and constantly log to `log_file_name`. <br>
+  2. cat `log_file_name` to show status log. <br>
+  <!-- end of the list -->
+  Examples <br>
+  1. `python3 coursicle_email.py` <br>
+  2. `nohup python3 coursicle_email.py > status_email.log 2>&1 &` <br>
+  3. `nohup python3 coursicle_push.py > status_push.log 2>&1 &` <br>
+  4. `nohup python3 coursicle_email_push.py > status_email_push.log 2>&1 &` <br>
+  5. `cat status_email_push.log` <br>
 ## Stop <br>
+  Locally <br>
+  1. `Ctrl-c` <br>
+  <!-- end of the list -->
+  Purdue Servers <br>
