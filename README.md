@@ -22,11 +22,16 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
 
 # Instructions
 ## Setup <br>
-  1. Download `.py` files
-  2. `pip install fake_useragent` <br>
-<!-- end of the list -->
-  &nbsp; Email Notifications <br>
-  &nbsp; Push Notifications <br>
+  1. Download `.py` files.
+  2. `pip install fake_useragent`. <br>
+  3. Change `crns` and `class_names` in `main()` to the classes you want to monitor. Find the `crns` in the CRF in the column CRN-SectionId or use this page (https://www.purdue.edu/registrar/currentStudents/students/addCourseStudentView.html). `class_names` is arbitruary and you can name the classes whatever you want. <br>
+  4. Change `end` in `main()` depending on how long you want to run the program. <br>
+  <!-- end of the list -->
+  Email Notifications <br>
+  1. You can use the email I created glencoursicle@gmail.com to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. <br>
+  2. Change destination email to yourself in `send_message()`. <br>
+  
+  Push Notifications <br>
 ## Run <br>
   &nbsp; Locally <br>
   &nbsp; Purdue Servers <br>
