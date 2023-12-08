@@ -51,7 +51,7 @@ def print_error(class_names, index):
   print(Style.RESET_ALL, end="", flush=True)
 
 def print_success_log():
-  print(Fore.BLACK + Back.WHITE + Style.BRIGHT + "* * * * * * * * *\n*               *\n*               *\n* SENT AN EMAIL *\n*               *\n*               *\n* * * * * * * * *", flush=True)
+  print(Fore.BLACK + Back.WHITE + Style.BRIGHT + "* * * * * * * *\n*             *\n*             *\n* SENT  NOTIF *\n*             *\n*             *\n* * * * * * * *", flush=True)
   print(Style.RESET_ALL, end="", flush=True)
 
 def send_message(message):

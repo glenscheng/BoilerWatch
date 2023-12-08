@@ -5,6 +5,7 @@ from time import sleep
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent # have to install: `pip install fake_useragent`
 import smtplib
+from email.message import EmailMessage
 import http.client, urllib
 import random
 from colorama import Fore, Back, Style
@@ -55,6 +56,7 @@ def print_success_log():
   print(Style.RESET_ALL, end="", flush=True)
 
 def send_message(message):
+  # send push
   conn = http.client.HTTPSConnection("api.pushover.net:443")
   conn.request("POST", "/1/messages.json",
     urllib.parse.urlencode({
@@ -63,10 +65,22 @@ def send_message(message):
       "message": message,
     }), { "Content-type": "application/x-www-form-urlencoded" })
   conn.getresponse()
+
+  # send email
+  email = EmailMessage()
+  email['from'] = 'glencoursicle@gmail.com'
+  email['to'] = 'glencheng3000@gmail.com'
+  email['subject'] = 'MY COURSICLE'
+  email.set_content(message)
+
+  with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
+    smtp.starttls()
+    smtp.login('glencoursicle@gmail.com', 'iotrqmvhkhyeqswu') # this is sender email and sender App Password (https://support.google.com/mail/answer/185833?hl=en)
+    smtp.send_message(email)
   
 
 def main():
-  print("Running coursicle_push.py ...", flush=True)
+  print("Running coursicle_email_push.py ...", flush=True)
 
   crns = ["68649", "14054", "17166", "24654"]
   class_names = ["EEE 355", "CE  355", "ECE 302", "SOC 324"]
