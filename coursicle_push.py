@@ -5,7 +5,7 @@ from time import sleep
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent # have to install: `pip install fake_useragent`
 import smtplib
-from email.message import EmailMessage
+import http.client, urllib
 import random
 from colorama import Fore, Back, Style
 
@@ -53,6 +53,16 @@ def print_error(class_names, index):
 def print_success_log():
   print(Fore.BLACK + Back.WHITE + Style.BRIGHT + "* * * * * * * * *\n*               *\n*               *\n* SENT AN EMAIL *\n*               *\n*               *\n* * * * * * * * *", flush=True)
   print(Style.RESET_ALL, end="", flush=True)
+
+def send_message(message):
+  conn = http.client.HTTPSConnection("api.pushover.net:443")
+  conn.request("POST", "/1/messages.json",
+    urllib.parse.urlencode({
+      "token": "asoacmxep6sczhxgj1qux2zk4fgs15",
+      "user": "ubm1nn15ez6f68puvm27cdo79ttc1y",
+      "message": message,
+    }), { "Content-type": "application/x-www-form-urlencoded" })
+  conn.getresponse()
   
 
 def main():
@@ -87,16 +97,7 @@ def main():
         print_error(class_names, index)
         
     if message != '':
-      email = EmailMessage()
-      email['from'] = 'glencoursicle@gmail.com'
-      email['to'] = 'glencheng3000@gmail.com'
-      email['subject'] = 'MY COURSICLE'
-      email.set_content(message)
-
-      with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
-        smtp.starttls()
-        smtp.login('glencoursicle@gmail.com', 'iotrqmvhkhyeqswu') # this is sender email and sender App Password (https://support.google.com/mail/answer/185833?hl=en)
-        smtp.send_message(email)
+      send_message(message)
       print_success_log()
 
 
