@@ -37,7 +37,7 @@ def print_body(class_names, index, available_seats, current_time):
   print(Style.DIM + f"Available Seats in {class_names[index]}: ", end="", flush=True)
   print(Style.RESET_ALL, end="", flush=True)
 
-  if available_seats == '0':
+  if available_seats <= '0':
     print(Fore.RED + Style.BRIGHT + f"{available_seats}", end="", flush=True)
     print(Style.RESET_ALL, end="", flush=True)
   else:
@@ -82,8 +82,8 @@ def send_message(message):
 def main():
   print("Running coursicle_email_push.py ...", flush=True)
 
-  crns = ["68649", "14054", "17166", "24654"]
-  class_names = ["EEE 355", "CE  355", "ECE 302", "SOC 324"]
+  crns = ["68649", "14054", "24654"]
+  class_names = ["EEE 355", "CE  355", "SOC 324"]
 
   start = 1
   end = 10000

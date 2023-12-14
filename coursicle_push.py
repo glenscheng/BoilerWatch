@@ -36,7 +36,7 @@ def print_body(class_names, index, available_seats, current_time):
   print(Style.DIM + f"Available Seats in {class_names[index]}: ", end="", flush=True)
   print(Style.RESET_ALL, end="", flush=True)
 
-  if available_seats == '0':
+  if available_seats <= '0':
     print(Fore.RED + Style.BRIGHT + f"{available_seats}", end="", flush=True)
     print(Style.RESET_ALL, end="", flush=True)
   else:

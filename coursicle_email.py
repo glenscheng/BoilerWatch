@@ -36,7 +36,7 @@ def print_body(class_names, index, available_seats, current_time):
   print(Style.DIM + f"Available Seats in {class_names[index]}: ", end="", flush=True)
   print(Style.RESET_ALL, end="", flush=True)
 
-  if available_seats == '0':
+  if available_seats <= '0':
     print(Fore.RED + Style.BRIGHT + f"{available_seats}", end="", flush=True)
     print(Style.RESET_ALL, end="", flush=True)
   else:
@@ -94,7 +94,7 @@ def main():
       if target_table:
         seats_row = target_table.find('th', {'class': 'ddlabel'}, string='Seats').parent
         available_seats = seats_row.find_all('td')[2].text.strip()
-        if available_seats != '0': # only send message if there are open seats
+        if available_seats > '0': # only send message if there are open seats
           message += f"Available Seats in {class_names[index]}: {available_seats}\n"
         print_body(class_names, index, available_seats, current_time);
       else:
