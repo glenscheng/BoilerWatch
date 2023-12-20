@@ -86,7 +86,7 @@ def main():
   class_names = ["EEE 355", "CE  355", "SOC 324"]
 
   start = 1
-  end = 10000
+  end = 100000
   available_seats = ['0' for i in range(len(crns))]
   available_seats_old = ['0' for i in range(len(crns))]
   while start <= end:
