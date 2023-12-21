@@ -103,6 +103,8 @@ def main():
       current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
       html_code = get_html(url_to_search)
       soup = BeautifulSoup(html_code, 'html.parser')
+      if soup == None:
+        break
       target_table = soup.find('table', {'class': 'datadisplaytable', 'summary': 'This layout table is used to present the seating numbers.'})
       
       if target_table:
