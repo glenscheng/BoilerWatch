@@ -1,0 +1,14 @@
+nohup: ignoring input
+Running boilerwatch_email_push.py ...
+[33m
+Slept 41 s, Iteration: 1/100000
+[0m[2mAvailable Seats in ECE 461: [0m[31m[1m0[0m[2m     -     (Last checked at 2024-04-19 22:00:54)
+[0m[2mAvailable Seats in HDFS690: [0m[32m[1m9999[0m[2m     -     (Last checked at 2024-04-19 22:00:55)
+[0m[30m[47m[1m* * * * * * * *
+*             *
+*             *
+* SENT  NOTIF *
+*             *
+*             *
+* * * * * * * *
+[0m
