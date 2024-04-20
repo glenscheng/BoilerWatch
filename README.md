@@ -1,4 +1,4 @@
-# Coursicle-Python
+# BoilerWatch
 A faster, more robust, and Python version of https://www.coursicle.com/ for Purdue University courses. Coursicle monitors course seat availabilities and notifies you when there are open seats, but their free version only allows you to track 1 course and polls every 15 minutes.
 
 # Features
@@ -28,11 +28,12 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
 ## Setup <br>
   1. Download `.py` files.
   2. `pip install fake_useragent`. <br>
-  3. Change `crns` and `class_names` in `main()` to the classes you want to monitor. Find the `crns` in the CRF in the column CRN-SectionId or use this page (https://www.purdue.edu/registrar/currentStudents/students/addCourseStudentView.html). `class_names` is arbitruary and you can name the classes whatever you want. <br>
-  4. Change `end` in `main()` depending on how long you want to run the program. <br>
+  3. Change `crns` and `class_names` in `main()` to the classes you want to monitor. Find the `crns` (course requset numbers) in the CRF in the column CRN-SectionId or use this page (https://www.purdue.edu/registrar/currentStudents/students/addCourseStudentView.html). `class_names` is arbitruary and you can name the classes whatever you want. <br>
+  4. Change `year` and `sem` in `main()`. `year` is just whatever year it is. For `sem`, Fall is `10` and Spring is `20` (idk what Summer is). For example, Fall 2024 is 202410 and Spring 2025 is 202420. <br>
+  5. Change `end` in `main()` depending on how long you want to run the program. <br>
   <!-- end of the list -->
   Email Notifications <br>
-  1. You can use the email I created (glencoursicle@gmail.com) to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. <br>
+  1. You can use the email I created (glencoursicle@gmail.com) to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. If you can't find the app passwords option, just search it up in the settings serach bar. <br>
   2. Replace `'to'` email with yourself in `send_message()`. <br>
   
   Push Notifications <br>
