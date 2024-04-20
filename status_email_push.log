@@ -1,5 +1,5 @@
 nohup: ignoring input
-Running coursicle_email_push.py ...
+Running boilerwatch_email_push.py ...
 [33m
 Slept 39 s, Iteration: 1/10000
 [0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:40:00)
