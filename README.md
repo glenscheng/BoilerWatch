@@ -63,5 +63,5 @@ Not kept up-to-date, just here for reference: <br>
   <!-- end of the list -->
   Purdue Servers <br>
   1. SSH back in. <br>
-  2. If you are still in the same terminnal session, do `ps`, copy the `PID` (process ID) of the process that says `python3`, then `kill -9 <PID>` to kill the process. <br>
+  2. If you are still in the same terminal session, do `ps`, copy the `PID` (process ID) of the process that says `python3`, then `kill -9 <PID>` to kill the process. <br>
   3. If you are not in the same terminal session, do `ps aux | grep <py_name>.py`, copy the `PID` (process ID) of the process that says `python3`, then `kill -9 <PID>` to kill the process. <br>
