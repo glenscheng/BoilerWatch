@@ -19,7 +19,8 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
 \- sends you both an email AND a push notification on phone (or other device) whenever the number of available seats changes using Pushover
 2. `status.log` <br>
 \- example of what will be logged while program is running <br>
-Not kept up-to-date: <br>
+<!-- end of the list -->
+Not kept up-to-date, just here for reference: <br>
 1. `old/boilerwatch_email.py` <br>
 \- emails you whenever there are available seats in a specific course
 2. `old/boilerwatch_push.py` <br>
@@ -34,13 +35,13 @@ Not kept up-to-date: <br>
   5. Change `end` in `main()` depending on how long you want to run the program. <br>
   <!-- end of the list -->
   Email Notifications <br>
-  1. You can use the email I created (boilerwatch2024@gmail.com) to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. If you can't find the app passwords option, just search it up in the settings serach bar. <br>
-  2. Replace `'to'` email with yourself in `send_message()`. <br>
+  1. You can use the email I created (boilerwatch2024@gmail.com) to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. If you can't find the App Passwords option, just search it up in the settings serach bar. <br>
+  2. Replace `email['to']` email with your own email in `send_message()`. <br>
   
   Push Notifications <br>
   1. Create a Pushover account (https://pushover.net/), and copy your User Key. Go here (https://pushover.net/api), click `Register your application`, fill stuff in, and copy your API Token/Key. <br>
-  2. Download the Pushover app, add your phone (or other device), and connect to your account. <br>
-  3. Replace `"token"` with your API Token/Key and `"user"` with your User Key. <br>
+  2. On your phone, download the Pushover app, add your phone (or other device), and connect to your account. <br>
+  3. In `send_message()`, replace `"token"` with your API Token/Key and `"user"` with your User Key. <br>
 ## Run <br>
   Locally <br>
   1. Just do `python3 <py_name>.py` and status will be logged to terminal. <br>
@@ -52,11 +53,10 @@ Not kept up-to-date: <br>
   4. You are free to leave the terminal session.
   <!-- end of the list -->
   Examples <br>
-  1. `python3 coursicle_email.py` <br>
-  2. `nohup python3 coursicle_email.py > status_email.log 2>&1 &` <br>
-  3. `nohup python3 coursicle_push.py > status_push.log 2>&1 &` <br>
-  4. `nohup python3 coursicle_email_push.py > status_email_push.log 2>&1 &` <br>
-  5. `cat status_email_push.log` <br>
+  1. `python3 boilerwatch_email_push.py` <br>
+  2. `nohup python3 boilerwatch_email_push.py > status.log 2>&1 &` <br>
+  3. `cat status.log` <br>
+
 ## Stop <br>
   Locally <br>
   1. `Ctrl-c` <br>
