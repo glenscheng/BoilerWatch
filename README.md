@@ -18,7 +18,7 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
 1. `boilerwatch_email_push.py` <br>
 \- sends you both an email AND a push notification on phone (or other device) whenever the number of available seats changes using Pushover
 2. `status.log` <br>
-\- example of what will be logged while program is running
+\- example of what will be logged while program is running <br>
 Not kept up-to-date: <br>
 1. `old/boilerwatch_email.py` <br>
 \- emails you whenever there are available seats in a specific course
