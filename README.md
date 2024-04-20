@@ -33,7 +33,7 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
   5. Change `end` in `main()` depending on how long you want to run the program. <br>
   <!-- end of the list -->
   Email Notifications <br>
-  1. You can use the email I created (glencoursicle@gmail.com) to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. If you can't find the app passwords option, just search it up in the settings serach bar. <br>
+  1. You can use the email I created (boilerwatch2024@gmail.com) to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. If you can't find the app passwords option, just search it up in the settings serach bar. <br>
   2. Replace `'to'` email with yourself in `send_message()`. <br>
   
   Push Notifications <br>
