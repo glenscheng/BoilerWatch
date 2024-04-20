@@ -70,7 +70,7 @@ def send_message(message):
   email = EmailMessage()
   email['from'] = 'boilerwatch2024@gmail.com'
   email['to'] = 'glencheng3000@gmail.com'
-  email['subject'] = 'BOILER WATCH'
+  email['subject'] = 'BoilerWatch: SEAT AVAILABLE!'
   email.set_content(message)
 
   with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
@@ -83,10 +83,10 @@ def main():
   print("Running boilerwatch_email_push.py ...", flush=True)
 
   ### variables to change ###
-  crns = ["18613"] ### course request number ###
-  class_names = ["ECE 461"]
-  year = 2024
-  sem = 10 ### 10=Fall, 20=Spring ###
+  crns = ["18613", "18618"] ### course request number ###
+  class_names = ["ECE 461", "HDFS690"]
+  year = "2025" ### year+1=Fall, year=Spring ###
+  sem = "10" ### 10=Fall, 20=Spring ###
 
   start = 1
   end = 100000 ### how long the loop will be ###
