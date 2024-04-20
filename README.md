@@ -31,7 +31,7 @@ Not kept up-to-date, just here for reference: <br>
   1. Download `.py` files.
   2. `pip install fake_useragent`. <br>
   3. Change `crns` and `class_names` in `main()` to the classes you want to monitor. Find the `crns` (course request numbers) in the CRF in the column CRN-SectionId or use this page (https://www.purdue.edu/registrar/currentStudents/students/addCourseStudentView.html). `class_names` is arbitruary and you can name the classes whatever you want. <br>
-  4. Change `year` and `sem` in `main()`. `year` is just whatever year it is. For `sem`, Fall is `10` and Spring is `20` (idk what Summer is). For example, Fall 2024 is 202410 and Spring 2025 is 202420. <br>
+  4. Change `year` and `sem` in `main()`. For `year`, Fall is the actual year + 1 and Spring is the actual year. For `sem`, Fall is `10` and Spring is `20` (idk what Summer is). For example, Fall 2024 is 202510 and Spring 2025 is 202420. <br>
   5. Change `end` in `main()` depending on how long you want to run the program. <br>
   <!-- end of the list -->
   Email Notifications <br>
