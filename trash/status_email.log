@@ -1,0 +1,9 @@
+nohup: ignoring input
+Running coursicle_email.py ...
+[33m
+Slept 59 s, Iteration: 1/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 13:34:29)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 13:34:33)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 13:34:42)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 13:34:45)
+[0m
