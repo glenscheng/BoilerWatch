@@ -1,0 +1,345 @@
+nohup: ignoring input
+Running boilerwatch_email_push.py ...
+[33m
+Slept 39 s, Iteration: 1/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:40:00)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:40:04)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:40:13)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:40:22)
+[0m[33m
+Slept 47 s, Iteration: 2/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:41:13)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:41:21)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:41:30)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:41:39)
+[0m[33m
+Slept 31 s, Iteration: 3/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:42:15)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:42:23)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:42:24)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:42:25)
+[0m[33m
+Slept 49 s, Iteration: 4/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:43:21)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:43:27)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:43:33)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:43:37)
+[0m[33m
+Slept 57 s, Iteration: 5/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:44:43)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:44:47)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:44:51)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:44:53)
+[0m[33m
+Slept 50 s, Iteration: 6/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:45:47)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:45:48)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:45:51)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:45:57)
+[0m[33m
+Slept 35 s, Iteration: 7/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:46:38)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:46:46)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:46:54)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:47:01)
+[0m[33m
+Slept 42 s, Iteration: 8/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:47:48)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:47:49)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:47:53)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:47:56)
+[0m[33m
+Slept 53 s, Iteration: 9/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:48:55)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:49:02)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:49:08)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:49:11)
+[0m[33m
+Slept 31 s, Iteration: 10/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:49:50)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:49:57)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:50:01)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:50:04)
+[0m[33m
+Slept 53 s, Iteration: 11/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:51:00)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:51:06)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:51:15)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:51:17)
+[0m[33m
+Slept 47 s, Iteration: 12/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:52:06)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:52:13)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:52:15)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:52:23)
+[0m[33m
+Slept 58 s, Iteration: 13/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:53:26)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:53:34)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:53:39)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:53:40)
+[0m[33m
+Slept 35 s, Iteration: 14/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:54:21)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:54:30)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:54:32)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:54:38)
+[0m[33m
+Slept 42 s, Iteration: 15/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:55:29)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:55:33)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:55:37)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:55:45)
+[0m[33m
+Slept 38 s, Iteration: 16/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:56:25)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:56:33)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:56:34)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:56:39)
+[0m[33m
+Slept 36 s, Iteration: 17/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:57:16)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:57:19)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:57:25)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:57:27)
+[0m[33m
+Slept 45 s, Iteration: 18/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:58:17)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:58:23)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:58:30)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:58:33)
+[0m[33m
+Slept 30 s, Iteration: 19/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:59:12)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:59:19)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:59:27)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 14:59:29)
+[0m[33m
+Slept 53 s, Iteration: 20/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:00:27)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:00:28)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:00:31)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:00:38)
+[0m[33m
+Slept 52 s, Iteration: 21/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:01:33)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:01:36)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:01:44)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:01:50)
+[0m[33m
+Slept 42 s, Iteration: 22/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:02:40)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:02:43)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:02:49)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:02:58)
+[0m[33m
+Slept 57 s, Iteration: 23/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:04:00)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:04:08)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:04:17)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:04:21)
+[0m[33m
+Slept 43 s, Iteration: 24/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:05:10)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:05:18)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:05:22)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:05:29)
+[0m[33m
+Slept 45 s, Iteration: 25/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:06:15)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:06:18)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:06:21)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:06:30)
+[0m[33m
+Slept 49 s, Iteration: 26/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:07:22)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:07:28)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:07:31)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:07:34)
+[0m[33m
+Slept 57 s, Iteration: 27/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:08:39)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:08:46)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:08:54)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:08:56)
+[0m[33m
+Slept 40 s, Iteration: 28/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:09:45)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:09:52)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:10:01)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:10:05)
+[0m[33m
+Slept 41 s, Iteration: 29/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:10:52)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:10:57)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:11:04)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:11:12)
+[0m[33m
+Slept 31 s, Iteration: 30/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:11:47)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:11:56)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:11:58)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:12:04)
+[0m[33m
+Slept 51 s, Iteration: 31/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:13:01)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:13:02)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:13:11)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:13:20)
+[0m[33m
+Slept 49 s, Iteration: 32/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:14:14)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:14:15)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:14:22)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:14:29)
+[0m[33m
+Slept 31 s, Iteration: 33/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:15:09)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:15:15)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:15:21)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:15:26)
+[0m[33m
+Slept 58 s, Iteration: 34/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:16:28)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:16:31)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:16:34)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:16:35)
+[0m[33m
+Slept 35 s, Iteration: 35/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:17:18)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:17:20)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:17:24)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:17:31)
+[0m[33m
+Slept 59 s, Iteration: 36/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:18:32)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:18:40)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:18:48)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:18:49)
+[0m[33m
+Slept 37 s, Iteration: 37/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:19:30)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:19:31)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:19:33)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:19:34)
+[0m[33m
+Slept 54 s, Iteration: 38/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:20:36)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:20:45)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:20:54)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:21:00)
+[0m[33m
+Slept 40 s, Iteration: 39/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:21:46)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:21:50)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:21:59)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:22:06)
+[0m[33m
+Slept 56 s, Iteration: 40/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:23:09)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:23:13)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:23:21)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:23:29)
+[0m[33m
+Slept 34 s, Iteration: 41/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:24:07)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:24:13)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:24:14)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:24:19)
+[0m[33m
+Slept 32 s, Iteration: 42/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:24:52)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:25:01)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:25:08)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:25:12)
+[0m[33m
+Slept 52 s, Iteration: 43/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:26:08)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:26:12)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:26:13)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:26:14)
+[0m[33m
+Slept 31 s, Iteration: 44/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:26:49)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:26:50)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:26:58)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:27:07)
+[0m[33m
+Slept 45 s, Iteration: 45/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:27:56)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:28:04)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:28:06)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:28:07)
+[0m[33m
+Slept 56 s, Iteration: 46/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:29:04)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:29:05)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:29:11)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:29:15)
+[0m[33m
+Slept 53 s, Iteration: 47/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:30:13)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:30:19)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:30:20)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:30:25)
+[0m[33m
+Slept 41 s, Iteration: 48/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:31:11)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:31:14)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:31:19)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:31:28)
+[0m[33m
+Slept 49 s, Iteration: 49/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:32:25)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:32:31)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:32:39)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:32:42)
+[0m[33m
+Slept 39 s, Iteration: 50/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:33:24)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:33:27)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:33:33)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:33:38)
+[0m[33m
+Slept 49 s, Iteration: 51/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:34:28)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:34:32)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:34:40)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:34:41)
+[0m[33m
+Slept 55 s, Iteration: 52/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:35:40)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:35:41)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:35:44)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:35:45)
+[0m[33m
+Slept 55 s, Iteration: 53/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:36:49)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:36:52)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:36:56)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:37:00)
+[0m[33m
+Slept 38 s, Iteration: 54/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:37:42)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:37:49)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:37:55)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:37:58)
+[0m[33m
+Slept 54 s, Iteration: 55/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:38:55)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:39:03)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:39:08)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:39:13)
+[0m[33m
+Slept 32 s, Iteration: 56/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:39:50)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:39:53)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:40:00)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:40:02)
+[0m[33m
+Slept 44 s, Iteration: 57/10000
+[0m[2mAvailable Seats in EEE 355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:40:53)
+[0m[2mAvailable Seats in CE  355: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:40:55)
+[0m[2mAvailable Seats in ECE 302: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:40:57)
+[0m[2mAvailable Seats in SOC 324: [0m[31m[1m0[0m[2m     -     (Last checked at 2023-12-08 15:41:00)
+[0m
