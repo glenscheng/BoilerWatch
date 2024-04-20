@@ -68,25 +68,29 @@ def send_message(message):
 
   # send email
   email = EmailMessage()
-  email['from'] = 'glencoursicle@gmail.com'
+  email['from'] = 'boilerwatch2024@gmail.com'
   email['to'] = 'glencheng3000@gmail.com'
-  email['subject'] = 'MY COURSICLE'
+  email['subject'] = 'BOILER WATCH'
   email.set_content(message)
 
   with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.starttls()
-    smtp.login('glencoursicle@gmail.com', 'iotrqmvhkhyeqswu') # this is sender email and sender App Password (https://support.google.com/mail/answer/185833?hl=en)
+    smtp.login('boilerwatch2024@gmail.com', 'opfrvqiipamlvcxp') # this is sender email and sender App Password (https://support.google.com/mail/answer/185833?hl=en)
     smtp.send_message(email)
   
 
 def main():
-  print("Running coursicle_email_push.py ...", flush=True)
+  print("Running boilerwatch_email_push.py ...", flush=True)
 
-  crns = ["68649", "14054", "24654"]
-  class_names = ["EEE 355", "CE  355", "SOC 324"]
+  ### variables to change ###
+  crns = ["18613"] ### course request number ###
+  class_names = ["ECE 461"]
+  year = 2024
+  sem = 10 ### 10=Fall, 20=Spring ###
 
   start = 1
-  end = 100000
+  end = 100000 ### how long the loop will be ###
+
   available_seats = ['0' for i in range(len(crns))]
   available_seats_old = ['0' for i in range(len(crns))]
   while start <= end:
@@ -98,7 +102,7 @@ def main():
     
     for index, crn in enumerate(crns):
       sleep(random.randrange(1,10)) # random intervals btwn individual scrapes
-      url_to_search = "https://selfservice.mypurdue.purdue.edu/prod/bwckschd.p_disp_detail_sched?term_in=202420&crn_in=" + crn 
+      url_to_search = "https://selfservice.mypurdue.purdue.edu/prod/bwckschd.p_disp_detail_sched?term_in=" + year + sem + "&crn_in=" + crn 
 
       current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
       html_code = get_html(url_to_search)
