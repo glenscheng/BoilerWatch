@@ -15,11 +15,11 @@ A faster, more robust, and Python version of https://www.coursicle.com/ for Purd
 - logs real-time status
 
 # Files
-1. `coursicle_email.py` <br>
+1. `boilerwatch_email.py` <br>
 \- emails you whenever there are available seats in a specific course
-2. `coursicle_push.py` <br>
+2. `boilerwatch_push.py` <br>
 \- sends you a push notification on phone (or other device) whenever the number of available seats changes using Pushover
-3. `coursicle_email_push.py` <br>
+3. `boilerwatch_email_push.py` <br>
 \- sends you both an email AND a push notification on phone (or other device) whenever the number of available seats changes using Pushover
 4. `status.log` <br>
 \- example of what will be logged while program is running
