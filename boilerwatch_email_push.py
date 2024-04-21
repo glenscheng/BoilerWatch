@@ -69,7 +69,7 @@ def send_message(message):
   # send email
   email = EmailMessage()
   email['from'] = 'boilerwatch2024@gmail.com'
-  email['to'] = 'glencheng3000@gmail.com'
+  email['to'] = 'youremail@gmail.com'
   email['subject'] = 'BoilerWatch: SEAT AVAILABLE!'
   email.set_content(message)
 
