@@ -36,7 +36,7 @@ Not kept up-to-date, just here for reference: <br>
   <!-- end of the list -->
   Email Notifications <br>
   1. You can use the email I created (boilerwatch2024@gmail.com) to send emails to yourself if you want. You can also use your own email to send notifications, use this link (https://support.google.com/mail/answer/185833?hl=en) to set up the App Password and replace the emails and password in `send_message()`. If you can't find the App Passwords option, just search it up in the settings serach bar. <br>
-  2. Replace `email['to']` email with your own email in `send_message()`. <br>
+  2. Replace `youremail@gmail.com` with your own email in `send_message()`. <br>
   
   Push Notifications <br>
   1. Create a Pushover account (https://pushover.net/), and copy your User Key. Go here (https://pushover.net/api), click `Register your application`, fill stuff in, and copy your API Token/Key. <br>
