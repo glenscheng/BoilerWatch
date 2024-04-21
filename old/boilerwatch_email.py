@@ -56,19 +56,19 @@ def print_success_log():
 
 def send_message(message):
   email = EmailMessage()
-  email['from'] = 'glencoursicle@gmail.com'
-  email['to'] = 'glencheng3000@gmail.com'
-  email['subject'] = 'MY COURSICLE'
+  email['from'] = 'boilerwatch2024@gmail.com'
+  email['to'] = 'youremail@gmail.com'
+  email['subject'] = 'BoilerWatch: SEAT AVAILABLE!'
   email.set_content(message)
 
   with smtplib.SMTP('smtp.gmail.com', 587) as smtp:
     smtp.starttls()
-    smtp.login('glencoursicle@gmail.com', 'iotrqmvhkhyeqswu') # this is sender email and sender App Password (https://support.google.com/mail/answer/185833?hl=en)
+    smtp.login('boilerwatch2024@gmail.com', 'opfrvqiipamlvcxp') # this is sender email and sender App Password (https://support.google.com/mail/answer/185833?hl=en)
     smtp.send_message(email)
   
 
 def main():
-  print("Running coursicle_email.py ...", flush=True)
+  print("Running boilerwatch_email.py ...", flush=True)
 
   crns = ["68649", "14054", "17166", "24654"]
   class_names = ["EEE 355", "CE  355", "ECE 302", "SOC 324"]
