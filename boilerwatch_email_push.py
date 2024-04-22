@@ -89,7 +89,7 @@ def main():
   sem = "10" ### 10=Fall, 20=Spring ###
 
   start = 1
-  end = 100000 ### how long the loop will be ###
+  end = 1000 ### how long the loop will be ###
 
   available_seats = ['0' for i in range(len(crns))]
   available_seats_old = ['0' for i in range(len(crns))]
