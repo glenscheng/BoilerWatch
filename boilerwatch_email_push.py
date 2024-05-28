@@ -85,8 +85,8 @@ def main():
   ### variables to change ###
   crns = ["18613", "18618"] ### course request number ###
   class_names = ["ECE 461", "HDFS690"]
-  year = "2025" ### year+1=Fall, year=Spring ###
-  sem = "10" ### 10=Fall, 20=Spring ###
+  year = "2025" ### year+1=Fall, year=Spring, year=Summer ###
+  sem = "10" ### 10=Fall, 20=Spring, 30=Summer ###
 
   start = 1
   end = 1000 ### how long the loop will be ###
