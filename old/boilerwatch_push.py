@@ -58,8 +58,8 @@ def send_message(message):
   conn = http.client.HTTPSConnection("api.pushover.net:443")
   conn.request("POST", "/1/messages.json",
     urllib.parse.urlencode({
-      "token": "asoacmxep6sczhxgj1qux2zk4fgs15",
-      "user": "ubm1nn15ez6f68puvm27cdo79ttc1y",
+      "token": "your_api_token_key",
+      "user": "your_user_key",
       "message": message,
     }), { "Content-type": "application/x-www-form-urlencoded" })
   conn.getresponse()
