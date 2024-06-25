@@ -1,5 +1,5 @@
 # BoilerWatch
-A faster, more robust, and Python version of https://www.coursicle.com/ for Purdue University courses. Coursicle monitors course seat availabilities and notifies you when there are open seats, but their free version only allows you to track 1 course and polls every 15 minutes.
+A faster, more robust, and Python version of https://www.coursicle.com/ for Purdue University courses. Coursicle monitors course seat availabilities and notifies you when there are open seats, but their free version only allows you to track 1 course and polls every ~5 minutes.
 
 # Features
 - sends you email notifications
